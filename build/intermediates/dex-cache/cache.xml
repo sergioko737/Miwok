@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="46f953e77b16a8a6530c53e73427622e503371b2">
+        <dex dex="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8c14bad535a9cd06693038ffe99bd34e712a878c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94a18421b4c5cbf08e0cb6d0a31dc0500d0a777e\classes.dex" />
+    </item>
+
+</items>
