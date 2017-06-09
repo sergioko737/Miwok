@@ -3,111 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Fujitsu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jar="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_53bba873182e5ae2e225a4a0736a6241bc7dd3ff\classes.dex" />
+        sha1="5bae21d7804af5c47348e43ab8df93c2d73b7c7e">
+        <dex dex="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8c14bad535a9cd06693038ffe99bd34e712a878c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\572b0d83b1336be9e64c12d68685fe8d7719351e\output\jars\classes.jar"
+        jar="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7e3b75794f35a8e30a1cd831a6430645fcf0ec1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\91fb10b36de1ded62e0c330a78dd2da256ef9ff4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d91c54828491a1b22f91d48c3a699bd387d70b1f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\286b6ce82014e445ec7713f890dba75eb03ea176\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c723d1d4f2ccf123f5a2b48d41b632c21748b710\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\bbb419ef262242bf8f1568fba996e266b36e8ce8\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac7d92a5d2c0d8cacd71fdb1ae4c30346a1dff0b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\940068c33c86b9b999e5e4ff589a15350930f5a2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e771440814e20b79581c746ee09a9d07058a8c7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\91fb10b36de1ded62e0c330a78dd2da256ef9ff4\output\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_7d6d47166d6ed4f3212f8ffb549a34f8d4f9b556\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\2c93f55959aa5421d7abfaacb8796b924dcca231\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0dfbdee4e65530ee2c1ebd8f6ae7f6bdb5973ac1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\.android\build-cache\bed11ca44d4641f9340f1f24ae720b62f2ab493f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_665857ff47f68ebe685f3340530c038edcb5a2ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Udacity\Android\Miwok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8b048cf06e1ba63fdebeaea092cb46f39a459bf7">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_39df195185ddb247e8116a1f7c0c7d9c5ebe2ac6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Fujitsu\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_4e57a00996624c09af9b92b35e7aab977bac0f60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Udacity\Android\Miwok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Udacity\Android\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_247e6375ab69ebe8a9b2b8ef62cb5fdb7cec2812\classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Udacity\AndroidMultiScreenApp\Miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94a18421b4c5cbf08e0cb6d0a31dc0500d0a777e\classes.dex" />
     </item>
 
 </items>
