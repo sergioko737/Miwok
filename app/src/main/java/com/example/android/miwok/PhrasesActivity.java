@@ -58,7 +58,7 @@ public class PhrasesActivity extends AppCompatActivity {
 
                 // Create and setup the {@link MediaPlayer} for the audio resource associated
                 // with the current word
-                mMediaPlayer = MediaPlayer.create(PhrasesActivity.this, word.getAudioResourceId());
+                mMediaPlayer = MediaPlayer.create(PhrasesActivity.this, word.getmAudioResourceId());
 
                 // Start the audio file
                 mMediaPlayer.start();

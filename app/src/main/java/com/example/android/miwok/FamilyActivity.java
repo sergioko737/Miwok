@@ -58,7 +58,7 @@ public class FamilyActivity extends AppCompatActivity {
 
                 // Create and setup the {@link MediaPlayer} for the audio resource associated
                 // with the current word
-                mMediaPlayer = MediaPlayer.create(FamilyActivity.this, word.getAudioResourceId());
+                mMediaPlayer = MediaPlayer.create(FamilyActivity.this, word.getmAudioResourceId());
 
                 // Start the audio file
                 mMediaPlayer.start();
