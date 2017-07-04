@@ -63,7 +63,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        
+
         <activity
             android:name=".PhrasesActivity"
             android:label="@string/category_phrases"
