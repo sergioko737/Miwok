@@ -19,32 +19,25 @@ import java.util.ArrayList;
  */
 public class ColorsFragment extends Fragment {
 
-    /** Handles playback of all the sound files */
+    /**
+     * Handles playback of all the sound files
+     */
     private MediaPlayer mMediaPlayer;
 
     // Handles audio focus when playing a sound file
     protected AudioManager mAudioManager;
 
-    /** This listener gets triggered when the {@link MediaPlayer} has comleted
-     * playing the audio file
-     */
-    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener(){
-        @Override
-        public void  onCompletion(MediaPlayer mediaPlayer){
-            // Now thet the sound file has finished playing, release the media player resources.
-            releaseMediaPlayer();
-        }
-    };
 
-    /** This listener gets triggered whenever the audio focus changes
+    /**
+     * This listener gets triggered whenever the audio focus changes
      * (i.e., we gain or lose audio focus because of another app or device).
      */
     private AudioManager.OnAudioFocusChangeListener mOnAudioFocusChangeListener
-            = new AudioManager.OnAudioFocusChangeListener(){
+            = new AudioManager.OnAudioFocusChangeListener() {
         @Override
-        public void onAudioFocusChange(int focusChange){
+        public void onAudioFocusChange(int focusChange) {
             if (focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT ||
-                    focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK){
+                    focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
                 // The AUDIOFOCUS_LOSS_TRANSIENT case means that we've lost audio focus for a
                 // short amount of time. The AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK case means that
                 // our app is allowed to continue playing sound but at a lower volume. WE'll treat
@@ -57,7 +50,7 @@ public class ColorsFragment extends Fragment {
             } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
                 // The AUDIOFOCUS_GAIN case means we have regained focus and can resume playback.
                 mMediaPlayer.start();
-            } else if (focusChange == AudioManager.AUDIOFOCUS_LOSS){
+            } else if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
                 // The AUDIOFOCUS_LOSS case means we've lost audio focus and
                 // Stop playback and clean up resources
                 releaseMediaPlayer();
@@ -66,6 +59,17 @@ public class ColorsFragment extends Fragment {
     };
 
 
+    /**
+     * This listener gets triggered when the {@link MediaPlayer} has comleted
+     * playing the audio file
+     */
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mediaPlayer) {
+            // Now thet the sound file has finished playing, release the media player resources.
+            releaseMediaPlayer();
+        }
+    };
 
     public ColorsFragment() {
         // Required empty public constructor
@@ -125,7 +129,7 @@ public class ColorsFragment extends Fragment {
                 int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
                         AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
-                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED){
+                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     //We have audio focus now.
                     // Create and setup the {@link MediaPlayer} for the audio resource associated
                     // with the current word
