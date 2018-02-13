@@ -42,8 +42,12 @@
           <option name="url" value="https://github.com/sergioko737/Calculator.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/sergioko737/team4project.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Udacity\engine" />
+    <option name="cloneParentDir" value="P:\" />
   </component>
 </application>
